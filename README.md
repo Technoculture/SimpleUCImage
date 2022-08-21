@@ -8,7 +8,7 @@
 > make image model=geno1 key=tcr-key
 ```
 
-## Better approach
+## Easier
 ```sh
 > export MODEL=geno1
 > export KEY=tcr-key
