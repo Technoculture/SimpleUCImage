@@ -1,4 +1,4 @@
-MODEL?=geno
+MODEL?=geno1
 key?=tcr-key
 
 image: model
@@ -7,5 +7,5 @@ image: model
 model:
 	cat $(MODEL).json | snap sign -k $(KEY) > $(MODEL).model
 
-clear:
-	rm *.model
+clean:
+	rm *.model *.manifest *.img

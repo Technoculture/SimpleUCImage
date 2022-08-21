@@ -18,3 +18,12 @@
 > make clear
 ```
 
+# Some Tips
+
+Use this reference: https://ubuntu.com/core/docs/quick-start
+
+## Generate timestamp for model assertion
+```sh
+date -Iseconds --utc
+```
+
