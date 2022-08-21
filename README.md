@@ -2,20 +2,21 @@
 
 ```sh
 # Convert json file to a model assertion
-> make model model=geno1-rpi key=tcr-key
+make model model=geno1-rpi key=tcr-key
 
 # Build Image
-> make image model=geno1-rpi key=tcr-key
+make image model=geno1-rpi key=tcr-key
 ```
 
 ## Easier
 ```sh
-> export MODEL=geno1-rpi
-> export KEY=tcr-key
-> make model
-> make image
+export MODEL=geno1-rpi
+export KEY=tcr-key
 
-> make clear
+make model
+make image
+
+make clear
 ```
 
 # Some Tips
