@@ -35,6 +35,12 @@
             		"id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
         	},
 		{
+			"name": "tcr-status-led",
+			"type": "app",
+			"default-channel": "latest/stable",
+			"id": "RHt6gj9d6S1tWb8Snkb7Dhs9KmrMGdP9"
+		},
+		{
 			"name": "htop",
 			"type": "app",
 			"default-channel": "latest/stable",
