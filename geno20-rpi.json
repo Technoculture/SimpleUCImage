@@ -1,0 +1,44 @@
+{
+	"type": "model",
+	"series": "16",
+	"authority-id": "vSjW3H4GaEt3HmTYjRssaNwGFhiUmnDQ",
+	"brand-id": "vSjW3H4GaEt3HmTYjRssaNwGFhiUmnDQ",
+	"model": "ubuntu-core-22-arm64",
+	"architecture": "arm64",
+	"serial-authority": ["generic"],
+	"timestamp": "2022-08-20T17:15:22+00:00",
+	"base": "core20",
+	"grade": "signed",
+	"snaps": [
+		{
+			"name": "pi",
+			"type": "gadget",
+			"default-channel": "20/stable",
+			"id": "YbGa9O3dAXl88YLI6Y1bGG74pwBxZyKg"
+		},
+		{
+			"name": "pi-kernel",
+            		"type": "kernel",
+            		"default-channel": "20/stable",
+            		"id": "jeIuP6tfFrvAdic8DMWqHmoaoukAPNbJ"
+		},
+		{
+            		"name": "core20",
+            		"type": "base",
+            		"default-channel": "latest/stable",
+            		"id": "amcUKQILKXHHTlmSa7NMdnXSx02dNeeT"
+        	},
+         	{
+            		"name": "snapd",
+            		"type": "snapd",
+            		"default-channel": "latest/stable",
+            		"id": "PMrrV4ml8uWuEUDBT8dSGnKUYbevVhc4"
+        	},
+		{
+			"name": "tcr-status-led",
+			"type": "app",
+			"default-channel": "latest/stable",
+			"id": "RHt6gj9d6S1tWb8Snkb7Dhs9KmrMGdP9"
+		}
+	]
+}
